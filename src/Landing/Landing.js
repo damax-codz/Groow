@@ -290,7 +290,7 @@ const Landing = () => {
         </div>
 
         <div className="flex justify-center mt-[100px]  max-[900px]:flex-col items-center ">
-          <div className="w-[500px] max-[600px]:w-[400px] flex flex-col items-start px-[20px]  max-[900px]:my-[20px]">
+          <div className="w-[500px] max-[600px]:w-full flex flex-col items-start px-[20px]  max-[900px]:my-[20px]">
             <div className=" relative overflow-hidden">
               <img className="h-[400px]  hover:scale-150 duration-500 hover:brightness-50" src={meet} alt="meet" />
               <p className="absolute top-[8px] left-[16px] font-cormorant text-[32px] text-text_white ">
@@ -302,7 +302,7 @@ const Landing = () => {
             </p>
           </div>
 
-          <div className="w-[500px] max-[600px]:w-[400px] flex flex-col items-start px-[20px]  max-[900px]:my-[20px]">
+          <div className="w-[500px] max-[600px]:w-full flex flex-col items-start px-[20px]  max-[900px]:my-[20px]">
             <div className=" relative overflow-hidden">
               <img className="h-[400px] hover:scale-150 duration-500 hover:brightness-50 " src={phone} alt="meet" />
               <p className="absolute top-[8px] left-[16px] font-cormorant text-[32px] text-text_white ">
@@ -314,7 +314,7 @@ const Landing = () => {
             </p>
           </div>
 
-          <div className="w-[500px] max-[600px]:w-[400px] flex flex-col items-start px-[20px]  max-[900px]:my-[20px] max-[600px]:text-[25px] ">
+          <div className="w-[500px] max-[600px]:w-full flex flex-col items-start px-[20px]  max-[900px]:my-[20px] max-[600px]:text-[25px] ">
             <div className=" relative overflow-hidden">
               <img
                 className="h-[400px] w-[480px]  rounded hover:scale-150 duration-500 hover:brightness-50"
@@ -338,7 +338,7 @@ const Landing = () => {
       </div>
 
       <div className="py-[50px] bg-green_light w-full flex flex-col items-center mt-[100px] leading-[90px]">
-        <p className="font-cormorant text-black text-[80px] flex items-center -ml-[200px] max-[600px]:text-[40px] max-[600px]:leading-[40px] max-[600px]:-ml-[100px] ">
+        <p className="font-cormorant text-black text-[80px] flex items-center -ml-[200px] max-[600px]:text-[30px] max-[600px]:leading-[40px] max-[600px]:-ml-[100px] ">
           YOU ASKED{" "}
           <img
             src={question}
@@ -346,28 +346,28 @@ const Landing = () => {
             className="ml-[20px] max-[600px]:w-[20px] "
           />
         </p>
-        <p className="font-cormorant text-black text-[80px] flex items-center -mr-[200px] max-[600px]:text-[40px] max-[600px]:leading-[40px] max-[600px]:-mr-[100px] ">
+        <p className="font-cormorant text-black text-[80px] flex items-center -mr-[200px] max-[600px]:text-[30px] max-[600px]:leading-[40px] max-[600px]:-mr-[100px] ">
           WE ANSWERED
         </p>
 
         <div className="w-full px-[40px]">
-          <p className="flex items-center font-cormorant text-[30px] max-[600px]:text-[20px] ">
+          <p className="flex items-center font-cormorant text-[30px] max-[600px]:text-[14px] ">
             What process should I expect from your agency?
             <img src={arrowdown} className="invert ml-[10px]" alt="" />
           </p>
-          <p className="flex items-center font-cormorant text-[30px] max-[600px]:text-[20px]  ">
+          <p className="flex items-center font-cormorant text-[30px] max-[600px]:text-[14px]  ">
             Do you work with startup brands?
             <img src={arrowdown} className="invert ml-[10px]" alt="" />
           </p>
-          <p className="flex items-center font-cormorant text-[30px] max-[600px]:text-[20px] ">
+          <p className="flex items-center font-cormorant text-[30px] max-[600px]:text-[14px] ">
             Will I get a proposal and quote for my project?
             <img src={arrowdown} className="invert ml-[10px]" alt="" />
           </p>
-          <p className="flex items-center font-cormorant text-[30px] max-[600px]:text-[20px] ">
+          <p className="flex items-center font-cormorant text-[30px] max-[600px]:text-[14px] ">
             How soon is your development result?
             <img src={arrowdown} className="invert ml-[10px]" alt="" />
           </p>
-          <p className="flex items-center font-cormorant text-[30px] max-[600px]:text-[20px]  ">
+          <p className="flex items-center font-cormorant text-[30px] max-[600px]:text-[14px]  ">
             Do you also do Branding? Is it a separate cost?
             <img src={arrowdown} className="invert ml-[10px]" alt="" />
           </p>
@@ -391,48 +391,48 @@ const Landing = () => {
           <div className="w-full mt-[50px] flex justify-between max-[600px]:flex-col ">
             <div className=" w-2/5 flex justify-between max-[600px]:w-full ">
               <div className="flex flex-col items-start  [&>*]:py-[10px]">
-                <p className="font-cormorant text-[30px] text-text_white">
+                <p className="font-cormorant text-[30px] text-text_white max-[600px]:text-[20px]">
                   MENU
                 </p>
                 <p className="font-proza text-[15px] text-text_white">
                   CASE STUDY
                 </p>
-                <p className="font-proza text-[15px] text-text_white">
+                <p className="font-proza text-[15px] text-text_white max-[600px]:text-[14px]">
                   TESTIMONIAL
                 </p>
-                <p className="font-proza text-[15px] text-text_white">PRESS</p>
-                <p className="font-proza text-[15px] text-text_white">
+                <p className="font-proza text-[15px] text-text_white max-[600px]:text-[14px]">PRESS</p>
+                <p className="font-proza text-[15px] text-text_white max-[600px]:text-[14px]">
                   CARRIERS
                 </p>
-                <p className="font-proza text-[15px] text-text_white">
+                <p className="font-proza text-[15px] text-text_white max-[600px]:text-[14px]">
                   ARTICLE
                 </p>
               </div>
               <div className="flex flex-col items-start  [&>*]:py-[10px]">
-                <p className="font-cormorant text-[30px] text-text_white">
+                <p className="font-cormorant text-[30px] text-text_white max-[600px]:text-[20px]">
                   FOLLOW US
                 </p>
-                <p className="font-proza text-[15px] text-text_white">
+                <p className="font-proza text-[15px] text-text_white max-[600px]:text-[14px]">
                   TWITTER{" "}
                 </p>
-                <p className="font-proza text-[15px] text-text_white">
+                <p className="font-proza text-[15px] text-text_white max-[600px]:text-[14px]">
                   TESTIMONIAL
                 </p>
-                <p className="font-proza text-[15px] text-text_white">
+                <p className="font-proza text-[15px] text-text_white max-[600px]:text-[14px]">
                   LINKEDIN
                 </p>
-                <p className="font-proza text-[15px] text-text_white">GITHUB</p>
-                <p className="font-proza text-[15px] text-text_white">
+                <p className="font-proza text-[15px] text-text_white max-[600px]:text-[14px]">GITHUB</p>
+                <p className="font-proza text-[15px] text-text_white max-[600px]:text-[14px]">
                   INSTAGRAM
                 </p>
               </div>
             </div>
 
             <div className="pt-[10px] w-2/5 flex flex-col items-start max-[600px]:w-full ">
-              <p className="font-cormorant text-[30px] text-text_white">
+              <p className="font-cormorant text-[30px] text-text_white max-[600px]:text-[20px]">
                 SUBSCRIBE
               </p>
-              <p className="font-proza text-[15px] text-text_white text-start py-[10px]">
+              <p className="font-proza text-[15px] text-text_white text-start py-[10px] max-[600px]:text-[14px]">
                 Subscribe to our newsletter to receive regular updates on the
                 latest insights, ideas, and discussions and creativity.
               </p>
